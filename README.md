@@ -8,9 +8,9 @@ Préparation d’une deuxième machine Debian, cette machine devra être sur le 
 Une machine aura pour rôle le serveur FTP, tandis que la deuxième sera le client ftp.
 Réaliser un script python qui jouera le rôle de client ftp.
 * Pouvoir se connecter, donc :
-- Entrer le nom d’hôte
-- Le nom d’utilisateur 
-- Et le mot de passe, très important !
+   - Entrer le nom d’hôte
+   - Le nom d’utilisateur 
+   - Et le mot de passe, très important !
 * Pouvoir envoyer une commande (nous les listerons un peu plus bas)
 * Pouvoir taper une commande, mais avec des arguments ! (Petite nuance)
 * On doit pouvoir :
