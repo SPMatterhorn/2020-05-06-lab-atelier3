@@ -1,6 +1,7 @@
 # 2020-05-06-lab-atelier3
 ## Atelier Python Client FTP
 ## Fichier code Python : clientftp.py (en cours de développement)
+### Contribution : Guillaume, Anaïs, Aurélie, Géraldine, Stéphane
 
 
 ### 1- Mise en place d’un client FTP avec Python
