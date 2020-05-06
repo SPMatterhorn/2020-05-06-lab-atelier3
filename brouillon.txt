@@ -4,8 +4,10 @@ test Entier
 testEntier=int(input("Saisissez un entier: "));
 print(type(testEntier));
 
-
-
+choix=int(input("Que souhaitez vous faire ? (entrez un entier)"));
+continuer_connexion = true;
+while continuer_connexion:
+   
 
 
 
