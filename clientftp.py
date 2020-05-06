@@ -12,7 +12,7 @@ from ftplib import FTP
 ftpObjet = FTP('pc2'); # connexion au serveur ftp pc2, port par défaut, ftpObjet est une instance de la classe FTP
 # ftpObjet = FTP(serverName);
 ftpReponse = ftpObjet.login(user='user',passwd='testtest') # identifiant, mot de passe
-print("Etat de l'identification : ", ftpReponse);
+print("Etat de l'identification: ", ftpReponse);
 # ftpObjet.login(utilisateur, motdepasse);
 ftpObjet.cwd('/home/user'); # changer de répertoire, se trouver dans le répertoire user
 
