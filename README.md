@@ -2,8 +2,7 @@
 Atelier Python Client FTP
 
 1- Mise en place d’un client FTP avec Python.
-Préparation d’une deuxième machine Debian, cette machine devra être sur le même réseau
-que la première.
+Préparation d’une deuxième machine Debian, cette machine devra être sur le même réseau que la première.
 Une machine aura pour rôle le serveur FTP, tandis que la deuxième sera le client ftp.
 Réaliser un script python qui jouera le rôle de client ftp.
 • Pouvoir se connecter, donc :
