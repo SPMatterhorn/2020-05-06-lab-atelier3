@@ -1,5 +1,15 @@
 Fichier Brouillon
 
+test Entier
+testEntier=int(input("Saisissez un entier: "));
+print(type(testEntier));
+
+
+
+
+
+
+
 # CWD (change current directory) pour changer de répertoire de travail
 # Method name : cwd
 ftpObject = FTP(); # instance ftp
