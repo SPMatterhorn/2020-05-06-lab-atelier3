@@ -14,22 +14,22 @@ Réaliser un script python qui jouera le rôle de client ftp.
 * Pouvoir envoyer une commande (nous les listerons un peu plus bas)
 * Pouvoir taper une commande, mais avec des arguments ! (Petite nuance)
 * On doit pouvoir :
-- Créer
-- Renommer
-- Déplacer
-- Supprimer des fichiers / dossiers
+   - Créer
+   - Renommer
+   - Déplacer
+   - Supprimer des fichiers / dossiers
 * On doit aussi pouvoir :
-- Se déplacer entre les répertoires
-- Lister leur contenu
-- Envoyer un fichier sur notre serveur
+   - Se déplacer entre les répertoires
+   - Lister leur contenu
+   - Envoyer un fichier sur notre serveur
 * En voici donc la liste (seulement celles que nous implémenterons):
-- CWD (change current directory) pour changer de répertoire de travail
-- DELE (delete) pour supprimer un fichier / dossier
-- LIST pour lister les fichiers et dossiers d’un répertoire (si vous n’en spécifiez pas, alors ce sera le répertoire courant qui sera listé)
-- MKD (make directory) pour créer un répertoire
-- RMD (remove directory) pour supprimer un répertoire
-- RNFR (rename a file from (name …)) pour renommer un répertoire X en …
-- STOR (store a file) pour envoyer un fichier sur le serveur.
+   - CWD (change current directory) pour changer de répertoire de travail
+   - DELE (delete) pour supprimer un fichier / dossier
+   - LIST pour lister les fichiers et dossiers d’un répertoire (si vous n’en spécifiez pas, alors ce sera le répertoire courant qui sera listé)
+   - MKD (make directory) pour créer un répertoire
+   - RMD (remove directory) pour supprimer un répertoire
+   - RNFR (rename a file from (name …)) pour renommer un répertoire X en …
+   - STOR (store a file) pour envoyer un fichier sur le serveur.
 
 ### 2- Autre atelier en bonus
 
