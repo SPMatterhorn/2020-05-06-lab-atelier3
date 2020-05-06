@@ -3,7 +3,7 @@
 ## Fichier code Python : clientftp.py (en cours de développement)
 
 
-### 1- Mise en place d’un client FTP avec Python.
+### 1- Mise en place d’un client FTP avec Python
 
 Préparation d’une deuxième machine Debian, cette machine devra être sur le même réseau que la première.
 Une machine aura pour rôle le serveur FTP, tandis que la deuxième sera le client ftp.
