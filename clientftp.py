@@ -22,7 +22,7 @@ print("Etat de la connexion:", etat); # état de la connexion
 rep=ftpObjet.dir(); 
 print(rep); # affichage du répertoire courant
 
-continuer_connexion = true;
+continuer_connexion = true; # la connexion au serveur FTP sera maintenue sans l'appel de la méthode quit()
 
 while continuer_connexion:
    choix=int(input("que souhaitez vous faire ? (entrez le num puis enter) \n 1:créer un repertoire \n 2:supprimer un repertoire \n 3:renommer un fichier ou dossier \n 4:arrêter la connexion"));
