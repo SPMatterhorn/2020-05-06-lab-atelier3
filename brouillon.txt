@@ -1,0 +1,45 @@
+Fichier Brouillon
+
+# CWD (change current directory) pour changer de répertoire de travail
+# Method name : cwd
+ftpObject = FTP(); # instance ftp
+ftpResponse = ftpObject.cwd("/upload"); #changement du répertoire de travail
+
+# DELE (delete) pour supprimer un fichier / dossier
+# Method name : delete
+ftpObject = FTP(); # création d'une instance de la classe FTP
+ftpResponse = ftpObject.connect(host=serverName); # connexion au serveur ftp
+print(ftpResponse);
+ftpResponse = ftpObject.login(user, password);
+print(ftpResponse);
+ftpResponse = ftpObject.cwd("/uploadedfiles"); #changement de répertoire de travail
+print(ftpResponse);
+ftpResponse = ftpObject.delete("ToServer.txt);
+print(ftpResponse);
+
+# LIST pour lister les fichiers et dossiers d’un répertoire (si vous n’en spécifiez pas, alors ce sera le répertoire courant qui sera listé)
+# retrlines
+
+# MKD (make directory) pour créer un répertoire
+# mkd
+
+# RMD (remove directory) pour supprimer un répertoire
+# rmd
+
+# RNFR (rename a file from (name…)) pour renommer un répertoire X en …
+# Method name : rename (fromname, toname)
+
+# STOR (store a file) pour envoyer un fichier sur le serveur.
+# Method name : storlines
+# The storlines() method copies a file(uploads) from an FTP client or another FTP server to the destination FTP server.
+fileName = "./ToServer.txt"
+fileObject = open(fileName, 'rb') # ouverture en mode binaire
+ftpObject = FTP() #création d'une instance ftp
+ftpResponse = ftpObject.connect(host=serverName) # connexion au serveur ftp
+print(ftpResponse);
+ftpResponse = ftpObject.login(); #login au serveur ftp
+print(ftpResponse);ftpResponse = ftpObject.cwd("/upload"); # changer le répertoire de travail
+print(ftpResponse);
+storeCommand = "STOR %s"%fileName; # Envoie du fichier du client ftp au serveur ftp
+ftpResponse = ftpObject.storelines(storeCommand, fileObject);
+print(ftpResponse);
