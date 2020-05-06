@@ -35,4 +35,4 @@ alors ce sera le répertoire courant qui sera listé)
 Comment via python envoyer des ordres, (installer des packages , lister des fichiers…)
 sur la machine serveur.
 A partir de la machine cliente.
-Les scripts devons être déposer sur un dépôt GitHub en accès publique
+Les scripts devons être déposer sur un dépôt GitHub en accès publique 
